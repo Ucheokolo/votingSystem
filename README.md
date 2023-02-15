@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+# Voting SmartContract Application
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrate how we can utilize the blockchain for voting via smart contracts. It comes with a voting contract, and a script that deploys that contract.
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+npx hardhat run scripts/vote.ts
 ```
